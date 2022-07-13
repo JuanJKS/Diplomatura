@@ -1,0 +1,4 @@
+pan
+facturas
+galletitas
+fruta
