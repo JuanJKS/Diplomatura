@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"> <!--Googleé sobre esto y no terminé de estar del todo seguro si conviene usarlo o no asique lo dejé -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Ídem arriba-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Creo que falta algo sobre esto en el archivo CSS-->
+		<title>To Do List</title>
+		<link href="to_do_list.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="bodytop"></div>
+			<div class="alert">
+				<p id="errores"></p>
+			</div>
+			<div class="agregar">
+				<input type="text" class="error-off" name="tarea" placeholder="Escriba aqui su tarea..."/>
+				<input type="button" value="+" name="add"/>
+			</div>
+		</div>
+		<div class="bodybottom">
+			<form id="all-task" name="lista-de-tareas">
+			</form>
+		</div>
+	</body>
+	<script src="to_do_list.js"></script>
+</html>
