@@ -23,12 +23,24 @@ input.error-on {
 	border-radius:5px;
 	border-top-style: solid;
 	border-left-style: solid;
-	border-color: red;
 	outline: none;
 }
 
 #errores {
-	color: red;
+	color: black;
+	background: #af2727;
+	background: linear-gradient(107deg,#af2727 0%, #c055b9 80%);
+	background: -webkit-linear-gradient(107deg,#af2727 0%, #c055b9 80%);
+	background: -moz-linear-gradient(107deg,#af2727 0%, #c055b9 80%);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	box-shadow: 10px 10px 5px 0px rgba(224,33,33,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(224,33,33,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(224,33,33,0.75);
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
 }
 
 
